@@ -47,9 +47,8 @@ class Trie:
         self._collect_words(node, prefix, results)
         return results
 
-# Example usage:
 trie = Trie()
-words = ["apple", "app", "application", "banana", "bat", "bar", "barn", "barnacle"]
+words = ["apple", "app", "application", "banana", "bat", "bar", "barn", "barnacle"] #add more words for the better auto regorinitation
 for word in words:
     trie.insert(word)
 
